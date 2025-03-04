@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Dictionary</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/icons/dic-book.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="header-left">
+          <div class="menu-bar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="#">Dictionary</a></li>
+              <li><a href="#">Translations</a></li>
+              <li><a href="#">Grammar</a></li>
+              <li><a href="#">Thesaurus</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-right">
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+
+          <div class="login-buttons">
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#">Log in</a>
+            <span>/</span>
+            <a href="#">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="my-brands">
+        <img src="/assets/icons/dictionary.png" alt="" />
+        <div class="brands-exp">
+          <h1>Advanced Dictionary</h1>
+          <p>Make your words meaningful</p>
+        </div>
+      </div>
+      <div class="container-search">
+        <h1 class="h-search">English to English Dictionary</h1>
+        <input type="text" class="word" id="word" placeholder="Search a word" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div class="translatedDiv" id="translatedDiv">
+          <p>Word: <span class="title" id="title"></span></p>
+          <p>Meaning: <span class="meaning" id="meaning"></span></p>
+          <audio src="" controls id="audio"></audio>
+        </div>
+      </div>
+    </main>
+
+    <div class="accordions">
+      <div class="accordion">
+        <div class="accordionTitle">
+          <p>Explore the advanced dictionary</p>
+          <button class="accordionButton">
+            <span class="plusIcon">
+              <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="minusIcon active">
+              <i class="fa-solid fa-minus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="accordionText active">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            nesciunt sed ducimus illo mollitia labore natus, similique aut!
+            Debitis earum vel provident molestias libero laborum voluptate
+            possimus voluptatum quia minima.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="accordionTitle">
+          <p>Grammer</p>
+          <button class="accordionButton">
+            <span class="plusIcon">
+              <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="minusIcon active">
+              <i class="fa-solid fa-minus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="accordionText active">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            nesciunt sed ducimus illo mollitia labore natus, similique aut!
+            Debitis earum vel provident molestias libero laborum voluptate
+            possimus voluptatum quia minima.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="accordionTitle">
+          <p>Thesaurus</p>
+          <button class="accordionButton">
+            <span class="plusIcon">
+              <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="minusIcon active">
+              <i class="fa-solid fa-minus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="accordionText active">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            nesciunt sed ducimus illo mollitia labore natus, similique aut!
+            Debitis earum vel provident molestias libero laborum voluptate
+            possimus voluptatum quia minima.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="accordionTitle">
+          <p>Pronunciation</p>
+          <button class="accordionButton">
+            <span class="plusIcon">
+              <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="minusIcon active">
+              <i class="fa-solid fa-minus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="accordionText active">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            nesciunt sed ducimus illo mollitia labore natus, similique aut!
+            Debitis earum vel provident molestias libero laborum voluptate
+            possimus voluptatum quia minima.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="accordionTitle">
+          <p>Translation dictionaries</p>
+          <button class="accordionButton">
+            <span class="plusIcon">
+              <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="minusIcon active">
+              <i class="fa-solid fa-minus"></i>
+            </span>
+          </button>
+        </div>
+        <div class="accordionText active">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            nesciunt sed ducimus illo mollitia labore natus, similique aut!
+            Debitis earum vel provident molestias libero laborum voluptate
+            possimus voluptatum quia minima.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        Copyright &copy; 2025 Advanced Dictionary All rights reserved
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="accordion.js"></script>
+  </body>
+</html>
