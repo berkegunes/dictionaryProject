@@ -1,3 +1,5 @@
+https://jsdictionaryproject.netlify.app/
+
 Dictionary App
 A simple and responsive dictionary web app that lets users search English words and view definitions, pronunciations, and audio. Includes accordion sections for extra language resources.
 
